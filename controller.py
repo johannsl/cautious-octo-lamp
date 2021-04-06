@@ -4,9 +4,9 @@ class Controller:
     car = None
     goal = None
 
-    p_weight = 0.5
-    i_weight = 0.01
-    d_weight = 4.7
+    p_weight = 0.5 # 0.1, 3, 0.1 = 30
+    i_weight = 0.01 # 0.01, 0.5, 0.01 = 50
+    d_weight = 4.7 # 3, 5, 0.1 = 20
 
     last_errors = [0, 0] # error0, error1
 
